@@ -38,7 +38,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker in Belo Horizonte and move the camera
         LatLng belo_horizonte;
         belo_horizonte = new LatLng(-19.914928, -43.929732);
         mMap.addMarker(new MarkerOptions().position(belo_horizonte).title("Marker in Belo Horizonte").snippet("Population: 4,137,400"));
